@@ -47,7 +47,7 @@ public class P03GetMinionNames {
             System.out.printf("%d. %s %d", i, minionName, minionAge);
             System.out.println();
         }
-
+        connection.close();
 
     }
 }
