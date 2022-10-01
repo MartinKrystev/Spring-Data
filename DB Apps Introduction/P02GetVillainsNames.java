@@ -32,6 +32,7 @@ public class P02GetVillainsNames {
 
             System.out.println(dbName + " " + dbCountMinions);
         }
+        connection.close();
 
     }
 }
