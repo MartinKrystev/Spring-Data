@@ -1,0 +1,34 @@
+RegisterUser - successful:
+RegisterUser|ivan@ivan.com|Ivan12|Ivan12|Ivan
+_____________________________________________
+LoginUser - successful:
+LoginUser|ivan@ivan.com|Ivan12
+_____________________________________________
+Games to add by admin - successful:
+AddGame|Overwatch|100.00|15.5|FqnKB22pOC0|https://us.battle.net/forums/static/images/social-thumbs/overwatch.png|Overwatch is a team-based multiplayer online first-person shooter video game developed and published by Blizzard Entertainment.|24-05-2016
+
+AddGame|Starcraft|250.00|45.5|ScnKB22pOC0|https://us.battle.net/forums/static/images/social-thumbs/wrong.png|Starcraft is a multiplayer online real strategy game video game developed and published by Blizzard Entertainment.|24-05-2000
+
+AddGame|Chess|50.00|5.2|ChnKB22pOC0|https://us.battle.net/forums/static/images/social-thumbs/chess.png|Overwatch is a team-based multiplayer online very difficult game developed and NOT published by Blizzard Entertainment.|24-05-1942
+_____________________________________________
+Games to add into shopping cart - successful:
+AddItem|Overwatch
+
+AddItem|Starcraft
+
+AddItem|Chess
+_____________________________________________
+Games to edit, by Admin - successful:
+EditGame|1|price=80.00|size=12.0
+_____________________________________________
+Check all existing games on the platform - successful:
+AllGames
+_____________________________________________
+Check detailed information on specific game - successful:
+DetailGame|Overwatch
+_____________________________________________
+Check the games that the current user ownes - successful:
+OwnedGames
+_____________________________________________
+Buy everything in the shopping cart - successful:
+BuyItem
